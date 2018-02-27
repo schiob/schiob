@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "schiob.com/"
 languageCode = "en-us"
 title = "Santiago Chio"
 theme = "beautifulhugo"
 
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Code, food and beyond"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -16,7 +16,7 @@ theme = "beautifulhugo"
   useHLJS = true
 
 [Author]
-  name = "Some Person"
+  name = "Santiago Chio"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
   facebook = "username"
