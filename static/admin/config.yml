@@ -20,10 +20,10 @@ collections:
         name: "bigimg"
         widget: "list"
         field:
-          - label: Image
-            name: image
-            widget: object
+          - label: "Image"
+            name: "image"
+            widget: "object"
             fields:
-              - {label: Source, name: src, widget: image}
-              - {label: Description, name: desc, widget: string}
+              - {label: "Source", name: "src", widget: "image"}
+              - {label: "Description", name: "desc", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
