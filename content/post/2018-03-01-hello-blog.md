@@ -7,6 +7,6 @@ tags:
 ---
 This is the first test with the netlify-cms
 
-![me](/images/avatar-icon.png)
+![me](/img/avatar-icon.png)
 
 This is me, hello. :)
