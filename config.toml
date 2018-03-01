@@ -1,6 +1,6 @@
 baseURL = "https://schiob.com/"
 languageCode = "en-us"
-title = "Santiago Chio"
+title = "schiob"
 theme = "beautifulhugo"
 
 
@@ -17,13 +17,13 @@ theme = "beautifulhugo"
 
 [Author]
   name = "Santiago Chio"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  gitlab = "username"
-  twitter = "username"
-  linkedin = "username"
+  website = "schiob.com"
+  email = "schiob4@gmail.com"
+  facebook = "schiob"
+  github = "schiob"
+  gitlab = "schiob"
+  twitter = "schiob"
+  linkedin = "schiob"
 
 [[menu.main]]
   name = "Blog"
