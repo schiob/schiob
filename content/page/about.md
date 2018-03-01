@@ -1,13 +1,9 @@
 ---
 title: About me
-subtitle: Or why I write some times
+subtitle: Or who is this guy
 comments: false
 ---
 
-My name is Santiago Chio.
+I'm Santiago Chio. I code, eat and play music some times.
 
-What else do you need?
-
-### my history
-
-Nothing to see
+I'm a software developer and undergraduate teacher, who shares info, comments and nonsense about programming and stuff.

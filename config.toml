@@ -2,10 +2,10 @@ baseURL = "https://schiob.com/"
 languageCode = "en-us"
 title = "schiob"
 theme = "beautifulhugo"
-
+googleAnalytics = "UA-114935155-1"
 
 [Params]
-  subtitle = "Code, food and beyond"
+  subtitle = "Code, music and food"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -17,13 +17,13 @@ theme = "beautifulhugo"
 
 [Author]
   name = "Santiago Chio"
-  website = "schiob.com"
+  website = "page/about/"
   email = "schiob4@gmail.com"
   facebook = "schiob"
   github = "schiob"
   gitlab = "schiob"
   twitter = "schiob"
-  linkedin = "schiob"
+  linkedin = "santiago-chío-benavides-8518ab73"
 
 [[menu.main]]
   name = "Blog"
