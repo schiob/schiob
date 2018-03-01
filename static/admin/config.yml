@@ -15,6 +15,15 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sub Title", name: "subtitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - label: "Images"
+        name: "bigimg"
+        widget: "list"
+        field:
+          - label: Image
+            name: image
+            widget: object
+            fields:
+              - {label: Source, name: src, widget: image}
+              - {label: Description, name: desc, widget: string}
       - {label: "Body", name: "body", widget: "markdown"}
