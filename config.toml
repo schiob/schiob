@@ -14,7 +14,8 @@ disqusShortname = "schiob"
   rss = true
   comments = true
   readingTime = true
-  useHLJS = true
+  pygmentsCodeFences = true
+  pygmentsUseClasses = true
 
 [Author]
   name = "Santiago Chio"
