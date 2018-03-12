@@ -17,7 +17,7 @@ First install the package.
 
 Import it and use the sendrid Helper Class **mail** to send a simple message:
 
-```go
+{{< highlight go >}}
 package main
 
 import (
@@ -40,7 +40,7 @@ func main() {
   fmt.Println(response.Body)
   fmt.Println(response.Headers)
 }
-```
+{{</ highlight >}}
 
 The first lines of the main function prepare the from, to and subject of the mail. And the next 2 are the content in plain text and html.
 
@@ -53,7 +53,7 @@ In order to use the templates first you have to create one in your [Transactiona
 
 One you create the template we have to replace some lines of the last code.
 
-```go
+{{< highlight go >}}
 package main
 
 import (
@@ -78,7 +78,7 @@ func main() {
   fmt.Println(response.Body)
   fmt.Println(response.Headers)
 }
-```
+{{</ highlight >}}
 
 The html in the **content** variable will replace the <%body%> tag in the template. And the **-name-** and **-city-** are also substitution tags.
 
