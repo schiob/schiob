@@ -33,7 +33,9 @@ func main() {
   subject := "Sending with SendGrid is Fun"
   plainTextContent := "and easy to do anywhere, even with Go"
   htmlContent := "<strong>and easy to do anywhere, even with Go</strong>"
+
   message := mail.NewSingleEmail(from, subject, to, plainTextContent, htmlContent)
+  
   client := sendgrid.NewSendClient("YOUR_SENDGRID_API_KEY")
   response, _ := client.Send(message)
   fmt.Println(response.StatusCode)
@@ -68,10 +70,13 @@ func main() {
   to := mail.NewEmail("Example User", "test@example.com")
   subject := "Sending with SendGrid is Fun"
   content := mail.NewContent("text/html", "I'm replacing the <strong>body tag</strong>")
+
   m := mail.NewV3MailInit(from, subject, to, content)
+
   m.Personalizations[0].SetSubstitution("-name-", "Example User")
   m.Personalizations[0].SetSubstitution("-city-", "Denver")
   m.SetTemplateID("13b8f94f-bcae-4ec6-b752-70d6cb59f932")
+
   client := sendgrid.NewSendClient("YOUR_SENDGRID_API_KEY")
   response, _ := client.Send(m)
   fmt.Println(response.StatusCode)
