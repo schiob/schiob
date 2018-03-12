@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "schiob"
 theme = "beautifulhugo"
 googleAnalytics = "UA-114935155-1"
+disqusShortname = "schiob"
 
 [Params]
   subtitle = "Code, music and food"
